@@ -139,7 +139,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"\/misc\/rein.aac"
+                 "value":"\/misc\/rein.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
