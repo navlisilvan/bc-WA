@@ -982,6 +982,35 @@
          "tilecount":832,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "columns":0,
+         "firstgid":4864,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"bildersammlung",
+         "spacing":0,
+         "tilecount":2,
+         "tileheight":700,
+         "tiles":[
+                {
+                 "id":0,
+                 "image":"C:\/Users\/Silvan\/Downloads\/recycle_items.png",
+                 "imageheight":64,
+                 "imagewidth":515
+                }, 
+                {
+                 "id":1,
+                 "image":"C:\/Users\/Silvan\/Downloads\/barrelprv.png",
+                 "imageheight":700,
+                 "imagewidth":666
+                }],
+         "tilewidth":666
         }],
  "tilewidth":32,
  "type":"map",
