@@ -193,7 +193,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/yopad.eu\/p\/bc-Gaestebuch-365days"
+                 "value":"https:\/\/codi.kanthaus.online\/bc-G%C3%A4stebuch?edit"
                 }],
          "type":"tilelayer",
          "visible":true,
