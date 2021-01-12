@@ -157,7 +157,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"\/misc\/dyson2.mp3"
+                 "value":"\/misc\/dyson_2.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
