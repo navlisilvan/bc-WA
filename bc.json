@@ -3200,19 +3200,6 @@
          "tilecount":256,
          "tileheight":32,
          "tilewidth":32
-        }, 
-        {
-         "columns":10,
-         "firstgid":7764,
-         "image":"C:\/Users\/Silvan\/Downloads\/armor.png",
-         "imageheight":320,
-         "imagewidth":320,
-         "margin":0,
-         "name":"armor",
-         "spacing":0,
-         "tilecount":100,
-         "tileheight":32,
-         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
