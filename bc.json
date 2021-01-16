@@ -193,7 +193,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"http:\/\/stream.radioparadise.com\/mp3-128"
+                 "value":"https:\/\/stream.radioparadise.com\/mp3-128"
                 }],
          "type":"tilelayer",
          "visible":true,
