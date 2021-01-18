@@ -424,7 +424,7 @@
          "name":"URLGalerie4",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":68,
          "x":0,
          "y":0
@@ -482,7 +482,7 @@
          "height":46,
          "id":1,
          "name":"bottom 1",
-         "opacity":0.93,
+         "opacity":1,
          "type":"tilelayer",
          "visible":true,
          "width":68,
