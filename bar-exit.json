@@ -47,7 +47,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitURL",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"tresen-exit.json#Tresenexit"
                 }],

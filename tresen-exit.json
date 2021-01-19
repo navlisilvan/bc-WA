@@ -31,7 +31,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"bc.json#bar"
+                 "value":"bc.json#tresen"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -65,7 +65,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitURL",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"bar-exit.json#Barexit"
                 }],
