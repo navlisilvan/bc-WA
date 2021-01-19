@@ -499,7 +499,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/cgw.bc-club.de\/pressespiegel\/"
+                 "value":"https:\/\/cgw.bc-club.de\/campus-noir\/"
                 }],
          "type":"tilelayer",
          "visible":true,
