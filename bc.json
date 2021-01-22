@@ -317,9 +317,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"jitsiRoom",
                  "type":"string",
-                 "value":"https:\/\/broadcast.fem.tu-ilmenau.de\/events\/clubkonzert\/"
+                 "value":"Tanzfl\u00e4che_B\u00fchne"
                 }],
          "type":"tilelayer",
          "visible":true,
