@@ -373,7 +373,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/..\/..\/..\/maps.world.fem-net.de\/fem\/main.json"
+                 "value":"..\/..\/maps.world.fem-net.de\/fem\/main.json"
                 }],
          "type":"tilelayer",
          "visible":true,
