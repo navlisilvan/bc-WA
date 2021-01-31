@@ -535,7 +535,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/..\/..\/..\/maps.world.fem-net.de\/campus\/campus.json#bc-entry"
+                 "value":"..\/..\/..\/..\/maps.world.fem-net.de\/campus\/campus.json"
                 }],
          "type":"tilelayer",
          "visible":true,
