@@ -410,6 +410,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/cgw.bc-club.de\/klo-cam\/"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -464,6 +469,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/cgw.bc-club.de\/kippenautomat\/"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -482,6 +492,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/cgw.bc-club.de\/neonparty\/"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -500,6 +515,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/cgw.bc-club.de\/galerie-50-cgw-2019\/"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -518,6 +538,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/cgw.bc-club.de\/frueher\/"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -536,6 +561,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/cgw.bc-club.de\/pressespiegel\/"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -554,6 +584,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/cgw.bc-club.de\/campus-noir\/"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
