@@ -21,10 +21,10 @@ jobs:
 
       - name: Bash
         run: |
-          ls -al
-          git config --global user.email "d.negrier@thecodingmachine.com"
-          git config --global user.name "David Négrier"
+          ls -al          
           git checkout master
+          git config --global user.email "$(git log HEAD --pretty=format:'%ae')"
+          git config --global user.name "$(git log -1 --pretty=format:'%an')"
           git commit -am "Adding files"
 
       - name: Deploy
