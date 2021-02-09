@@ -319,7 +319,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/fm4.stream.laut.fm\/fm4"
+                 "value":"--streamurl--"
                 }],
          "type":"tilelayer",
          "visible":true,
