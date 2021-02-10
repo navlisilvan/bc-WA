@@ -2,7 +2,8 @@ name: Optimize map and deploy
 
 on:
   schedule:
-    - cron: '1 6,17 * * *' # 7 and 18
+    - cron: '1 6 * * *' # 7:01 German time
+    - cron: '1 17 * * *' #18:01 German time
   push:
     branches:
       - master
