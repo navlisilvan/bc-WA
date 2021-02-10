@@ -37,11 +37,12 @@ function isDayOrNight {
 
 
 MODE=$(isDayOrNight)
+echo "Mode: $MODE"
 case $MODE in
      'Night')
      STREAM_URL=${STREAM_NIGHT_URLS[$DOW]}
      ;;
-     'DAY')
+     'Day')
      STREAM_URL=${STREAM_DAY_URLS[$DOW]}
      ;;
 esac
