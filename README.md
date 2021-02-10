@@ -77,3 +77,6 @@ When your changes are ready, you need to "commit" and "push" the changes back to
 Just wait a few minutes, and your map will be propagated automatically to the GitHub pages web-server.
 
 TODO: describe how to push
+
+# Deployment Status
+![Optimize map and deploy](https://github.com/ILSCeV/bc-WA/workflows/Optimize%20map%20and%20deploy/badge.svg?branch=master)
