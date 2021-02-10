@@ -1,6 +1,50 @@
 #!/usr/bin/env bash
 echo "replace Stream url"
-STREAM_URL="https:\/\/fm4.stream.laut.fm\/fm4"
+declare -A STREAM_DAY_URLS
+declare -A STREAM_NIGHT_URLS
+declare STREAM_URL
+TZ=Europe/Berlin
+export TZ
+DOW=$(date +%u)
+
+STREAM_DAY_URLS[1]="https://stream.radioparadise.com/mp3-128"
+STREAM_NIGHT_URLS[1]="https://streams.radiobob.de/100/mp3-192/streams.radiobob.de/"
+STREAM_DAY_URLS[2]="https://stream.radioparadise.com/mp3-128"
+STREAM_NIGHT_URLS[2]="https://br-puls-live.cast.addradio.de/br/puls/live/mp3/mid"
+STREAM_DAY_URLS[3]="https://stream.radioparadise.com/mp3-128"
+STREAM_NIGHT_URLS[3]="https://streams.starfm.de/hot_top.mp3"
+STREAM_DAY_URLS[4]="https://stream.radioparadise.com/mp3-128"
+STREAM_NIGHT_URLS[4]="https://streams.starfm.de/millennium_rock.mp3"
+STREAM_DAY_URLS[5]="https://stream.radioparadise.com/mp3-128"
+STREAM_NIGHT_URLS[5]="https:\/\/fm4.stream.laut.fm\/fm4"
+STREAM_DAY_URLS[6]="https://stream.radioparadise.com/mp3-128"
+STREAM_NIGHT_URLS[6]="https:\/\/fm4.stream.laut.fm\/fm4"
+STREAM_DAY_URLS[7]="http://stream.radioparadise.com/mp3-128"
+STREAM_NIGHT_URLS[7]="https:\/\/fm4.stream.laut.fm\/fm4"
+
 PLACEHOLDER="--streamurl--"
+
+function isDayOrNight {
+ local hod
+ hod=$(date +%H)
+ if(($hod >= 18 && $hod <= 24 || $hod >= 0 && $hod < 7)); then
+    echo 'Night'
+ else
+    echo 'Day'
+ fi      
+}
+
+
+MODE=$(isDayOrNight)
+case $MODE in
+     'Night')
+     STREAM_URL=${STREAM_NIGHT_URLS[$DOW]}
+     ;;
+     'DAY')
+     STREAM_URL=${STREAM_DAY_URLS[$DOW]}
+     ;;
+esac
+echo $STREAM_URL     
+
 
 sed -i  "s/$PLACEHOLDER/$STREAM_URL/g" *.json
