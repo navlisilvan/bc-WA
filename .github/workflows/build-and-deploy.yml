@@ -1,6 +1,8 @@
 name: Optimize map and deploy
 
 on:
+  schedule:
+    - cron: '1 7,18 * * *'
   push:
     branches:
       - master
