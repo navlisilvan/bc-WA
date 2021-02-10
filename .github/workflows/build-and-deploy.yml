@@ -28,6 +28,7 @@ jobs:
           git config --global user.email "$(git log HEAD --pretty=format:'%ae')"
           git config --global user.name "$(git log -1 --pretty=format:'%an')"
           deploy/setAudioStream.sh
+          rm -rfv ./deploy/
           git commit -am "Adding files"
 
       - name: Deploy
