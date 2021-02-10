@@ -27,6 +27,7 @@ PLACEHOLDER="--streamurl--"
 function isDayOrNight {
  local hod
  hod=$(date +%H)
+ hod=${hod#0}
  if((hod >= 18 && hod <= 24 || hod >= 0 && hod < 7)); then
     echo 'Night'
  else
