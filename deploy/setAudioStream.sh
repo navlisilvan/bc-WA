@@ -47,7 +47,7 @@ case $MODE in
      STREAM_URL=${STREAM_DAY_URLS[$DOW]}
      ;;
 esac
-echo $STREAM_URL     
+echo "Stream URL: $STREAM_URL"
 
 
 sed -i  "s/$PLACEHOLDER/$STREAM_URL/g" ./*.json
