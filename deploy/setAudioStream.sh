@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "replace Stream url"
-set -v
+
 declare -A STREAM_DAY_URLS
 declare -A STREAM_NIGHT_URLS
 declare STREAM_URL
@@ -39,6 +39,8 @@ function isDayOrNight {
 
 MODE=$(isDayOrNight)
 echo "Mode: $MODE"
+echo "Day of Week: ${DOW}"
+echo "Hour of day: $(date +%H)"
 case $MODE in
      'Night')
      STREAM_URL=${STREAM_NIGHT_URLS[$DOW]}
