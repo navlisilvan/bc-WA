@@ -1,21 +1,17 @@
 name: Optimize map and deploy
-
 on:
   schedule:
-    - cron: '1 6 * * *' # 7:01 German time
-    - cron: '1 17 * * *' #18:01 German time
+    - cron: "1 6 * * *" # 7:01 German time
+    - cron: "1 17 * * *" #18:01 German time
   push:
     branches:
       - master
 
 jobs:
-
   deploy:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout
         uses: actions/checkout@v2
 
