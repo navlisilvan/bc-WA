@@ -229,7 +229,7 @@
                 {
                  "name":"jitsiInterfaceConfig",
                  "type":"string",
-                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\", \"DEFAULT_LOGO_URL\":\"https:\/\/bc-club.de\/img\/logo.png\",\n\"SHOW_BRAND_WATERMARK\":true } "
+                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\", \"DEFAULT_LOGO_URL\":\"https:\/\/bc-club.de\/img\/logo.png\",\n\"SHOW_BRAND_WATERMARK\":true, \"SHOW_POWERED_BY\":true,\n\"DEFAULT_WELCOME_PAGE_LOGO_URL\":\"https:\/\/bc-club.de\/img\/logo.png\",\n\"DISPLAY_WELCOME_FOOTER\": true\n } "
                 }, 
                 {
                  "name":"jitsiRoom",
