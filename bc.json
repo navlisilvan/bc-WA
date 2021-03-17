@@ -83,6 +83,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"jitsiInterfaceConfig",
+                 "type":"string",
+                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\" } "
+                }, 
+                {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"sofablau"
@@ -100,6 +105,11 @@
          "name":"Jitsi Rumpelgasse",
          "opacity":1,
          "properties":[
+                {
+                 "name":"jitsiInterfaceConfig",
+                 "type":"string",
+                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\" } "
+                }, 
                 {
                  "name":"jitsiRoom",
                  "type":"string",
@@ -119,6 +129,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"jitsiInterfaceConfig",
+                 "type":"string",
+                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\" } "
+                }, 
+                {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"sofagraugruen"
@@ -136,6 +151,11 @@
          "name":"Jitsi Sofa braunrot",
          "opacity":1,
          "properties":[
+                {
+                 "name":"jitsiInterfaceConfig",
+                 "type":"string",
+                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\" } "
+                }, 
                 {
                  "name":"jitsiRoom",
                  "type":"string",
@@ -155,6 +175,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"jitsiInterfaceConfig",
+                 "type":"string",
+                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\" } "
+                }, 
+                {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"bar"
@@ -172,6 +197,11 @@
          "name":"Jitsi Klo Frauen",
          "opacity":1,
          "properties":[
+                {
+                 "name":"jitsiInterfaceConfig",
+                 "type":"string",
+                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\" } "
+                }, 
                 {
                  "name":"jitsiRoom",
                  "type":"string",
@@ -191,6 +221,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"jitsiInterfaceConfig",
+                 "type":"string",
+                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\" } "
+                }, 
+                {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"KloMaenner"
@@ -208,6 +243,11 @@
          "name":"Jitsi Raucherbereich",
          "opacity":1,
          "properties":[
+                {
+                 "name":"jitsiInterfaceConfig",
+                 "type":"string",
+                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\" } "
+                }, 
                 {
                  "name":"jitsiRoom",
                  "type":"string",
@@ -229,7 +269,7 @@
                 {
                  "name":"jitsiInterfaceConfig",
                  "type":"string",
-                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\", \"DEFAULT_LOGO_URL\":\"https:\/\/bc-club.de\/img\/logo.png\",\n\"SHOW_BRAND_WATERMARK\":true, \n\"DEFAULT_WELCOME_PAGE_LOGO_URL\":\"https:\/\/bc-club.de\/img\/logo.png\",\n\"DISPLAY_WELCOME_FOOTER\": true,\n\"JITSI_WATERMARK_LINK\":\"https:\/\/bc-club.de\/img\/logo.png\"\n } "
+                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\" } "
                 }, 
                 {
                  "name":"jitsiRoom",
@@ -237,7 +277,7 @@
                  "value":"BrauneEcke"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":68,
          "x":0,
          "y":0
@@ -249,6 +289,11 @@
          "name":"Jitsi Veteranentisch",
          "opacity":1,
          "properties":[
+                {
+                 "name":"jitsiInterfaceConfig",
+                 "type":"string",
+                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\" } "
+                }, 
                 {
                  "name":"jitsiRoom",
                  "type":"string",
@@ -787,12 +832,6 @@
          "name":"floorLayer",
          "objects":[],
          "opacity":1,
-         "properties":[
-                {
-                 "name":"jitsiInterfaceConfig",
-                 "type":"string",
-                 "value":"{ \"DEFAULT_BACKGROUND\": \"#791F08\", \"DEFAULT_LOGO_URL\":\"https:\/\/bc-club.de\/img\/logo.png\",\n\"SHOW_BRAND_WATERMARK\":true, \n\"DEFAULT_WELCOME_PAGE_LOGO_URL\":\"https:\/\/bc-club.de\/img\/logo.png\",\n\"DISPLAY_WELCOME_FOOTER\": true,\n\"JITSI_WATERMARK_LINK\":\"https:\/\/bc-club.de\/img\/logo.png\"\n } "
-                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
